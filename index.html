@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أداة تلخيص الأخبار</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>أداة تلخيص الأخبار</h1>
+        <div class="input-section">
+            <input type="text" id="keyword" placeholder="أدخل كلمة مفتاحية (مثلاً: تقنية، سياسة)">
+            <button onclick="fetchNews()">جلب الأخبار</button>
+        </div>
+        <h2>الأخبار:</h2>
+        <div id="news-container">لم يتم جلب الأخبار بعد...</div>
+        <h2>التلخيص:</h2>
+        <div id="response-container">بانتظار التلخيص...</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
